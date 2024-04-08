@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">  
+    <nav>
+      <pre>
+      <h1>Job Board</h1>
+      <h4>    Your Dream Job Is Here</h4>
+      </pre>
+      <img src="finder.png" class="logo">
+        <ul class="nav-links">
+          <li class="btn">Log in</li>
+          <li class="btn">Sign up</li> <br>
+          <li><a href="">Home</a></li>
+          <li><a href="">Jobs</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">About us</a></li>
+        </ul>
+    </nav>  
+    <div class="resume">
+      <pre>
+      <h6>4326+ Job's listed</h6>
+      <h3>Find your Dream Job</h3>
+      <button id="findJobsButton" 
+              style="display: block;
+              color: white;
+              font-weight: 300;
+              background-color: rgb(66, 255, 101);
+              padding: 10px 30px;
+              border-radius: 5px;
+              cursor: pointer;" 
+              type="button">Find Jobs</button> <br>
+      <button 
+              style="display: block;
+              color: white;
+              font-weight: 300;
+              background-color: rgb(66, 255, 101);
+              padding: 10px 30px;
+              border-radius: 5px;
+              cursor: pointer;" 
+              type="button">Upload Resumes</button>
+      </pre>
+    <div class="container">
+        <img src="jb1.png" alt="bgimage">
+    </div>
+    </div>
+
+    <script>
+      document.getElementById("findJobsButton").addEventListener("click", function() {
+        window.location.href = "index1.html";
+      });
+    </script>
+</body>
+</html>
